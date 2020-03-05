@@ -1,12 +1,12 @@
 package Projet.Projet;
 
 public class Developer extends Employee {
-		 int salaire, enciente;
+		 int salaire, Nbprojet;
 
-		public Developer(String nomEp, String prenomEp, int idEp, int enciente) {
+		public Developer(String nomEp, String prenomEp, int idEp, int Nbprojet) {
 			super(nomEp, prenomEp, idEp);
-			this.salaire = 100*enciente+1600;
-			this.enciente = enciente;
+			this.salaire = 100*Nbprojet+1600;
+			this.Nbprojet = Nbprojet;
 
 		}
 }
